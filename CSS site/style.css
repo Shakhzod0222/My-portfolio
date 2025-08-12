@@ -1,0 +1,703 @@
+html, body {
+    background-color: #ffffff;
+    font-family: Poppins,sans-serif;
+    margin: 0;
+}
+h2{
+    font-family: 'Rubik', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #ff8f00 ;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+}
+h4{
+    background-color: #ffffff!important;
+}
+.button:hover{
+    cursor: pointer;
+}
+.navbar{
+    display: flex;
+    position: fixed;
+    height: 55px;
+    margin-top: -62px;
+    z-index: 10;
+}
+.navbar_items{
+    display: flex;
+    justify-content: space-around;
+
+    background-color: #fafafa;
+    width: 100vw;
+    margin-top: -8px;
+}
+.navbar_item1 ul {
+  display: flex; 
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+  list-style: none;
+  margin-top: 1.5rem;
+  padding: 0;
+}
+
+    /*Main section*/
+
+.main-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+.premium-items{
+    display: flex;
+    height: 70vh;
+    padding: 100px 0;
+    background-size: contain;
+    background-position: center bottom 0px;
+    background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/hosting-company-01.png), linear-gradient(237deg, #46b3ff 0%, #0752fe 100%) !important;
+    background-repeat: no-repeat;
+
+}
+.premium-item{
+    padding: 10px 0;
+    margin-right: 50px;
+    line-height: 2rem;
+    margin-left: 100px;
+    width: auto;
+    color: #ffffff;
+    
+
+
+}
+.premium-item h1{
+    padding-top: 20px;
+    width: 85%;
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 500;
+}
+.premium-item p{
+    width: 80%;
+    font-weight: 500!important;
+}
+.premium-item1{
+    margin-right: 120px;
+    width: 100%;
+    height: auto;
+}
+.premium-item1 img{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    padding-right: 0px!important;
+    width: 100%;
+    height: 100%;
+}
+.button{
+    color: #ffffff !important;
+    border-width: 0px !important;
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-family: 'Rubik', Helvetica, Arial, Lucida, sans-serif !important;
+    text-transform: uppercase !important;
+    background-color: #263547;
+    padding: 14px 38px;
+}
+
+    /*Com Section*/
+
+.com_items{
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+    margin-left:120px;
+    width: 80%;
+
+}
+.com_item{
+    margin-right: 20px;
+    font-weight: 550;
+}
+.com_item span{
+    color: #999999;
+    font-size: 1rem;
+}
+.dot{
+    font-size:2rem !important;
+    color: #0752fe!important;
+}
+    
+    /*Our Sevices*/
+
+.our-service{
+    display: flex;
+    flex-direction: row;
+    padding: 50px 120px;
+
+
+}
+.service_items{
+    display:flex;
+    flex-direction: column;
+    
+    margin-left: 100px;
+
+}
+.service-item2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    margin: 0 60px;
+    background-color: #ffffff;
+}
+.service-item1{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 0 120px;
+    font-size: 30px;
+    font-weight: 400;
+
+}
+
+.service-item{
+    border-radius: 24px;
+    padding:14px 40px 30px 30px;
+    color: #666666;
+    line-height: 28px;
+    font-size: 14px;
+    box-shadow: 0px 90px 160px 0px rgba(0, 0, 0, 0.06);
+
+    
+}
+.service__items{
+    display: flex;
+}
+.service__item1{
+    margin: 140px 60px 0 0;
+    line-height: 28px;
+    
+}
+.service__item2{
+    border-radius: 24px;
+    color: #666666;
+    font-size: 14px;
+    line-height: 28px;
+    padding:14px 40px 30px 30px;
+    margin-bottom: 140px;
+    
+    box-shadow: 0px 90px 160px 0px rgba(0, 0, 0, 0.06);
+    text-decoration: none;
+}
+.our-service a{
+    text-decoration: none;
+    color: #0752fe;
+}
+
+    /* Our Features*/
+.our-features{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+}
+.features-items{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    padding: 25px 0;
+    margin: 0 120px;
+}
+.features-items img{
+    height: 300px;
+}
+.features-item{
+    font-size: 24px;
+    line-height: 30px;
+    padding-right: 50px;
+    width: 45%;
+}
+.features-item p{
+    font-size: 1rem;
+    font-weight: 200;
+}
+.features_item,.features_item1{
+    display: flex;
+    flex-direction: row;
+    margin: 60px 120px 0 120px;
+    padding: 60px 0 30px;
+}
+.features_item p,
+.features_item1 p{
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 2rem;
+    padding-right: 1rem;
+}
+.features_item1 img,
+.features_item img{
+    display: flex;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+
+}
+
+    /*Pricing Section*/
+
+.pricing-section{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0 120px 0;
+    background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/hosting-company-01.png), linear-gradient(180deg, #ffffff 0%, #eef9ff 100%) !important;
+    background-size: contain;
+    background-position: center bottom 0px;
+    background-repeat: no-repeat;
+}
+.pricing-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 120px;
+    padding: 25px 0;
+
+}
+.pricing-item h3{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.pricing_items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 120px 0 120px;
+    padding: 25px 0;
+}
+.pricing_item,
+.pricing_item1,
+.pricing_item2{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 0 40px;
+    margin: 0 20px;
+    border-radius: 24px;
+
+}
+.pricing_item span,
+.pricing_item1 span,
+.pricing_item2 span{
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: 'Rubik', Helvetica, Arial, Lucida, sans-serif;
+}
+.pricing_item li,
+.pricing_item1 li,
+.pricing_item2 li{
+    padding: 0 0 25px 8px;
+    opacity: 0.5;
+}
+.pricing_item h4,
+.pricing_item input,
+.pricing_item li::marker{
+    color: #ff8f00!important;
+    background-color: #fff4eb;
+}
+.pricing_item1 h4,
+.pricing_item1 input,
+.pricing_item1 li::marker{
+    color: #2a70fb;
+    background-color: #2a70fb;
+}
+.pricing_item2 h4,
+.pricing_item2 input,
+.pricing_item2 li::marker{
+    color: #27cf8c!important;
+    background-color: #ecfbf4;
+}
+.pricing_item input,
+.pricing_item1 input,
+.pricing_item2 input{
+    margin-bottom: 2rem;
+}
+
+    /*File Management*/
+
+.file-section{
+    display: flex;
+    flex-direction: row;
+    margin: 0 120px;
+    padding: 25px 0;
+}
+.file-section h3{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.file-section img{
+    width: 100%;
+    height: auto;
+}
+.file-section p,
+.file-section h4,
+.file_item img{
+    margin: 0;
+    padding-bottom: 15px;
+}
+.file-items{
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+}
+.file_item{
+    display: flex;
+    flex-direction: row;
+}
+.file_item span{
+    margin-top: 25px;
+    padding-right: 15px;
+}
+.file-section p{
+    opacity: 0.5;
+}
+
+/*Live chat section*/
+
+.live-section{
+    display: flex;
+    height: 60vh;
+    padding: 180px 0 100px;
+    background-size: contain,contain;
+    background-position: center top, center bottom;
+    background-image: url(./Images/hosting-company-02.png),url(./Images/hosting-company-01.png), linear-gradient(150deg, #ffba61 0%, #ffe970 100%) !important;
+    background-repeat: no-repeat,no-repeat;
+
+    
+}
+.live-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px 120px;
+    line-height: 2rem;
+    font-size: 1rem;
+    
+}
+.live-item h2,
+.live-item p,
+.live-item input{
+    margin: 0 120px;
+    color: #ffffff;
+}
+
+.live-item h2{
+    font-family: 'Rubik', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 500;
+    font-size: 52px;
+    text-align: center;
+}
+
+    /*Easy Setup*/
+
+.easy-section{
+    display: flex;
+    flex-direction: row;
+    padding: 50px 0;
+    margin: 0 120px;
+}
+.easy-item{
+    width: 100%;
+    height: auto;
+    margin-right: 50px;
+}
+.easy-items{
+    line-height: 2rem;
+}
+.easy-item1{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 9px;
+
+}
+.easy-item1 i{
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: #ff8f00;
+}
+
+    /*WHAT THEY'RE SAYING*/
+
+.saying-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 120px;
+    padding: 25px 0;
+}
+.saying-items{
+    display: flex;
+    flex-direction: row;
+    line-height: 28px;
+
+}
+.saying-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-right: 50px;
+    padding: 30px;
+    color: #666666;
+    font-size: 14px;
+    background-image: url(./Images/hosting-company-04.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-radius: 24px;
+    box-shadow: 0px 90px 160px 0px rgba(0, 0, 0, 0.06);
+}
+.saying-item img{
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+.saying-item:nth-child(3) {
+    margin: 0!important;
+}
+.saying-item span{
+    margin-top: 2rem;
+    font-weight: 700;
+}
+
+    /*Satisfaction Guaranteed*/
+
+.guarantee-section{
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0;
+    margin: 0 120px;
+    align-items: center;
+}
+.guarantee-section h3{
+    font-size: 38px;
+    font-weight: 510;
+}
+.guarantee-items{
+    display: flex;
+    flex-direction: row;
+}
+.guarantee-items h2{
+    color: white;
+    font-size: 26px;
+}
+.guarantee-item{
+    padding: 40px;
+    line-height: 2rem;
+    color: white;
+    font-weight: 400;
+    background-position: left bottom 0px;
+    background-image: url(./Images/hosting-company-06.png),linear-gradient(237deg, #46b3ff 0%, #0752fe 100%);
+    background-color: #7EBEC5;
+    border-radius: 24px 24px 24px 24px;
+    margin-right: 50px;
+}
+.guarantee-item1{
+    padding: 40px;
+    line-height: 2rem;
+    color: white;
+    font-weight: 400;
+    background-position: left bottom 0px;
+    background-image: url(./Images/hosting-company-07-1.png),linear-gradient(150deg, #ffba61 0%, #ffdc71 100%);
+    background-color: #7EBEC5;
+    border-radius: 24px 24px 24px 24px;
+    margin-right: 50px;
+    
+}
+
+    /*Free Hosting*/
+
+.hosting-section{
+    display: flex;
+    flex-direction: column;
+    background-size: contain;
+    background-position: center top;
+    background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/hosting-company-11.png), linear-gradient(237deg, #46b3ff 0%, #0752fe 100%) !important;
+    background-repeat: no-repeat;
+    padding: 240px 0 120px 0;
+
+}
+.hosting-items{
+    text-align: center;
+    padding: 25px 0;
+    margin: 0 120px;
+
+}
+.hosting-item{
+    margin: 0 120px 25px;
+    color: white;
+}
+.hosting-item h2{
+    font-size: 36px;
+    color: white;
+
+}
+
+    /*Footer*/
+
+footer{
+    display: flex;
+    color: white;
+    background-color: black;
+}
+.footer-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+
+}
+footer ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-align: right;
+}
+.footer-items li{
+    margin-left: 20px;
+    font-size: 1.5rem;
+}
+.main-section{
+    opacity: 0;
+    transform: translateY(40px);
+    animation: slideLeft 1s ease-out forwards;
+}
+
+@keyframes slideLeft {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+    /*Responsive Max width 991px*/
+
+@media only screen and (max-width: 991px){
+    body{
+        margin: 0;
+    }
+    .navbar ul {
+        display: none;
+}
+    .premium-items{
+        display: flex;
+        flex-direction: column;
+        width: 100%!important;
+        height: auto;
+        padding: 50px 0;
+        
+    }
+    .com_items{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+    .com_item{
+        min-width: 290px;
+        height: auto;
+    }
+    .our-service{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin: 0 12%;
+        padding: 50px 0;
+    }
+    .service-item1{
+        margin-left: 0;
+    }
+    .service__items,.service-item2{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        height: auto;
+    }
+    .service__item1,.service-item2{
+        margin-right: 0;
+    }
+    .features-items{
+        display: flex;
+        flex-direction: column;
+        margin: 0 90px;
+        height: auto;
+        
+    }
+    .features-item,.features-item1 img{
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+    .features_item,.features_item1{
+        display: flex;
+        flex-direction: column;
+        padding:0 ;
+    }
+    .pricing_items{
+        display: flex;
+        flex-direction: column;
+    }
+    .pricing_item,.pricing_item1,.pricing_item2{
+        margin-bottom: 40px;
+    }
+    .file-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .live-section{
+        height: auto;
+    }
+    .easy-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .saying-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .saying-items{
+        display: flex;
+        flex-direction: column;
+    }
+    .saying-item{
+        display: flex;
+        flex-direction: row;
+        box-shadow: 0px 0px 160px 0px rgba(0, 0, 0, 0.06);
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+    .guarantee-items{
+        display: flex;
+        flex-direction: column;
+    }
+    .guarantee-item{
+        margin-bottom: 20px;
+    }
+    .hosting-item{
+        margin: 0 0 25px 0;
+    }
+    .footer-items{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .footer-items ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+
+}
